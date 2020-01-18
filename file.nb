@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[      1732,         56]
-NotebookOptionsPosition[      1163,         40]
-NotebookOutlinePosition[      1512,         55]
-CellTagsIndexPosition[      1469,         52]
+NotebookDataLength[      8213,        185]
+NotebookOptionsPosition[      7640,        169]
+NotebookOutlinePosition[      7989,        184]
+CellTagsIndexPosition[      7946,        181]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -28,9 +28,138 @@ Cell["cell 2", "Text",
   3.788345838767116*^9}},ExpressionUUID->"5cb5d3e5-d4a4-42f9-98c0-\
 098a7ae3000c"],
 
-Cell["cell3", "Text",
- CellChangeTimes->{{3.7883465156268063`*^9, 
-  3.788346518090275*^9}},ExpressionUUID->"428ca80d-c9f9-4503-b1e2-\
+Cell[TextData[Cell[BoxData[
+ FormBox[
+  InterpretationBox[
+   RowBox[{
+    TagBox["EncryptedObject",
+     "SummaryHead"], "[", 
+    DynamicModuleBox[{Typeset`open$$ = False, Typeset`embedState$$ = "Ready"}, 
+     TemplateBox[{PaneSelectorBox[{False -> GridBox[{{
+             GraphicsBox[
+              RasterBox[CompressedData["
+1:eJxTTMoPSmVmYGDggGIQe+tRU7vJfx/Zvzpjq1KT/8Y+7sastXtS3to/OpmX
+9kX5KQZtfOh2s4DAA6JpXObjEsdlTu9Fq1WzFO7Yr/ugJ/5R9oG97IbVJ4Ov
+PSbZPaSaT6r7qeVOXOE/UO7E5R5SzSfV/dRKh7ROt6SGDy71pPqX1PAnNd+R
+aj613E+qelLDk9b2UitdUaucxGUOANuLK2k=
+               "], {{0, 0}, {8, 8}}, {0, 
+               1}], Frame -> None, FrameLabel -> {None, None}, 
+              FrameTicks -> {{None, None}, {None, None}}, GridLinesStyle -> 
+              Directive[
+                GrayLevel[0.5, 0.4]], ImageSize -> 42, 
+              Method -> {
+               "DefaultBoundaryStyle" -> Automatic, 
+                "DefaultGraphicsInteraction" -> {
+                 "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
+                  "Effects" -> {
+                   "Highlight" -> {"ratio" -> 2}, 
+                    "HighlightPoint" -> {"ratio" -> 2}, 
+                    "Droplines" -> {
+                    "freeformCursorMode" -> True, 
+                    "placement" -> {"x" -> "All", "y" -> "None"}}}}, 
+                "DefaultPlotStyle" -> Automatic}, PlotRangePadding -> None], 
+             GridBox[{{
+                RowBox[{
+                  TagBox["\"data length: \"", "SummaryItemAnnotation"], 
+                  "\[InvisibleSpace]", 
+                  TagBox["\"112 bytes\"", "SummaryItem"]}]}, {
+                RowBox[{
+                  TagBox["\"IV length: \"", "SummaryItemAnnotation"], 
+                  "\[InvisibleSpace]", 
+                  TagBox[
+                   TemplateBox[{"128", "\" bits\""}, "RowDefault"], 
+                   "SummaryItem"]}]}, {
+                RowBox[{
+                  TagBox["\"original form: \"", "SummaryItemAnnotation"], 
+                  "\[InvisibleSpace]", 
+                  TagBox["Expression", "SummaryItem"]}]}}, 
+              GridBoxAlignment -> {
+               "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, AutoDelete -> 
+              False, GridBoxItemSize -> {
+               "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+              GridBoxSpacings -> {
+               "Columns" -> {{2}}, "Rows" -> {{Automatic}}}, 
+              BaseStyle -> {
+               ShowStringCharacters -> False, NumberMarks -> False, 
+                PrintPrecision -> 3, ShowSyntaxStyles -> False}]}}, 
+           GridBoxAlignment -> {"Rows" -> {{Top}}}, AutoDelete -> False, 
+           GridBoxItemSize -> {
+            "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+           BaselinePosition -> {1, 1}], True -> GridBox[{{
+             GraphicsBox[
+              RasterBox[CompressedData["
+1:eJxTTMoPSmVmYGDggGIQe+tRU7vJfx/Zvzpjq1KT/8Y+7sastXtS3to/OpmX
+9kX5KQZtfOh2s4DAA6JpXObjEsdlTu9Fq1WzFO7Yr/ugJ/5R9oG97IbVJ4Ov
+PSbZPaSaT6r7qeVOXOE/UO7E5R5SzSfV/dRKh7ROt6SGDy71pPqX1PAnNd+R
+aj613E+qelLDk9b2UitdUaucxGUOANuLK2k=
+               "], {{0, 0}, {8, 8}}, {0, 
+               1}], Frame -> None, FrameLabel -> {None, None}, 
+              FrameTicks -> {{None, None}, {None, None}}, GridLinesStyle -> 
+              Directive[
+                GrayLevel[0.5, 0.4]], ImageSize -> 42, 
+              Method -> {
+               "DefaultBoundaryStyle" -> Automatic, 
+                "DefaultGraphicsInteraction" -> {
+                 "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
+                  "Effects" -> {
+                   "Highlight" -> {"ratio" -> 2}, 
+                    "HighlightPoint" -> {"ratio" -> 2}, 
+                    "Droplines" -> {
+                    "freeformCursorMode" -> True, 
+                    "placement" -> {"x" -> "All", "y" -> "None"}}}}, 
+                "DefaultPlotStyle" -> Automatic}, PlotRangePadding -> None], 
+             GridBox[{{
+                RowBox[{
+                  TagBox["\"data length: \"", "SummaryItemAnnotation"], 
+                  "\[InvisibleSpace]", 
+                  TagBox["\"112 bytes\"", "SummaryItem"]}]}, {
+                RowBox[{
+                  TagBox["\"IV length: \"", "SummaryItemAnnotation"], 
+                  "\[InvisibleSpace]", 
+                  TagBox[
+                   TemplateBox[{"128", "\" bits\""}, "RowDefault"], 
+                   "SummaryItem"]}]}, {
+                RowBox[{
+                  TagBox["\"original form: \"", "SummaryItemAnnotation"], 
+                  "\[InvisibleSpace]", 
+                  TagBox["Expression", "SummaryItem"]}]}}, 
+              GridBoxAlignment -> {
+               "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, AutoDelete -> 
+              False, GridBoxItemSize -> {
+               "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+              GridBoxSpacings -> {
+               "Columns" -> {{2}}, "Rows" -> {{Automatic}}}, 
+              BaseStyle -> {
+               ShowStringCharacters -> False, NumberMarks -> False, 
+                PrintPrecision -> 3, ShowSyntaxStyles -> False}]}}, 
+           GridBoxAlignment -> {"Rows" -> {{Top}}}, AutoDelete -> False, 
+           GridBoxItemSize -> {
+            "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+           BaselinePosition -> {1, 1}]}, 
+        Dynamic[Typeset`open$$], ImageSize -> Automatic]},
+      "SummaryPanel"],
+     DynamicModuleValues:>{}], "]"}],
+   EncryptedObject[
+    Association[
+    "Data" -> ByteArray[{247, 137, 91, 252, 137, 163, 7, 185, 4, 114, 33, 191,
+        94, 30, 202, 238, 114, 198, 70, 249, 87, 175, 32, 30, 86, 224, 142, 
+       254, 33, 178, 38, 53, 163, 189, 217, 168, 65, 152, 23, 74, 63, 233, 
+       207, 163, 139, 33, 160, 69, 244, 218, 141, 107, 43, 145, 186, 12, 87, 
+       147, 36, 84, 253, 226, 80, 248, 202, 30, 27, 155, 129, 115, 101, 141, 
+       53, 17, 35, 103, 59, 14, 154, 116, 29, 40, 174, 133, 49, 130, 56, 103, 
+       75, 129, 155, 6, 251, 90, 32, 240, 145, 54, 174, 5, 131, 160, 37, 21, 
+       224, 62, 214, 129, 21, 50, 193, 174}], "InitializationVector" -> 
+     ByteArray[{32, 9, 227, 38, 221, 219, 49, 72, 209, 154, 98, 46, 142, 125, 
+       69, 52}], "OriginalForm" -> Expression]],
+   Editable->False,
+   SelectWithContents->True,
+   Selectable->False], TraditionalForm]],
+ FormatType->
+  "TraditionalForm",ExpressionUUID->"eaa2a85b-eb70-4c44-b897-7fb37ec7044f"]], \
+"Text",
+ CellChangeTimes->{{3.7883465156268063`*^9, 3.788346518090275*^9}, {
+  3.7883480607095547`*^9, 
+  3.788348060712371*^9}},ExpressionUUID->"428ca80d-c9f9-4503-b1e2-\
 b28f10a3a53d"],
 
 Cell["cell4", "Text",
@@ -56,8 +185,8 @@ CellTagsIndex->{}
 Notebook[{
 Cell[558, 20, 148, 3, 35, "Text",ExpressionUUID->"25e7766b-b425-485c-9351-c7f53df775f7"],
 Cell[709, 25, 148, 3, 35, "Text",ExpressionUUID->"5cb5d3e5-d4a4-42f9-98c0-098a7ae3000c"],
-Cell[860, 30, 149, 3, 35, "Text",ExpressionUUID->"428ca80d-c9f9-4503-b1e2-b28f10a3a53d"],
-Cell[1012, 35, 147, 3, 35, "Text",ExpressionUUID->"2bede505-ed1c-4519-b6c3-266d06c7a3c3"]
+Cell[860, 30, 6626, 132, 79, "Text",ExpressionUUID->"428ca80d-c9f9-4503-b1e2-b28f10a3a53d"],
+Cell[7489, 164, 147, 3, 35, "Text",ExpressionUUID->"2bede505-ed1c-4519-b6c3-266d06c7a3c3"]
 }
 ]
 *)
